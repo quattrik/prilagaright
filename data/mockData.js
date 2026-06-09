@@ -1,0 +1,106 @@
+export const categories = [
+  {
+    id: '1',
+    title: 'Кабеленесущие системы',
+    image: 'https://www.dkc.ru/upload/iblock/5b4/5b4e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg', // Placeholder
+    icon: 'server-network',
+  },
+  {
+    id: '2',
+    title: 'Трубы для электропроводки',
+    image: 'https://www.dkc.ru/upload/iblock/5b4/5b4e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
+    icon: 'pipe',
+  },
+  {
+    id: '3',
+    title: 'Молниезащита и заземление',
+    image: 'https://www.dkc.ru/upload/iblock/5b4/5b4e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
+    icon: 'flash',
+  },
+  {
+    id: '4',
+    title: 'Шкафы и корпуса',
+    image: 'https://www.dkc.ru/upload/iblock/5b4/5b4e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
+    icon: 'door',
+  },
+];
+
+export const products = [
+  {
+    id: '101',
+    categoryId: '1',
+    sku: '35012',
+    name: 'Лоток листовой неперфорированный 100х50',
+    description: 'Лоток металлический глухой для прокладки кабеля. Обеспечивает надежную защиту кабельных трасс.',
+    price: '450 ₽',
+    characteristics: [
+      { name: 'Ширина', value: '100 мм' },
+      { name: 'Высота', value: '50 мм' },
+      { name: 'Толщина металла', value: '0.7 мм' },
+      { name: 'Длина', value: '3000 мм' },
+      { name: 'Материал', value: 'Оцинкованная сталь' },
+    ],
+    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Лоток+100х50',
+  },
+  {
+    id: '102',
+    categoryId: '1',
+    sku: '35013',
+    name: 'Лоток перфорированный 200х50',
+    description: 'Лоток металлический перфорированный для прокладки кабеля. Обеспечивает вентиляцию кабельных трасс.',
+    price: '650 ₽',
+    characteristics: [
+      { name: 'Ширина', value: '200 мм' },
+      { name: 'Высота', value: '50 мм' },
+      { name: 'Толщина металла', value: '0.8 мм' },
+      { name: 'Длина', value: '3000 мм' },
+      { name: 'Материал', value: 'Оцинкованная сталь' },
+    ],
+    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Лоток+200х50',
+  },
+  {
+    id: '201',
+    categoryId: '2',
+    sku: '91920',
+    name: 'Труба гофрированная ПВХ д.20',
+    description: 'Труба гибкая гофрированная из самозатухающего ПВХ-пластиката с зондом для протяжки кабеля.',
+    price: '15 ₽/м',
+    characteristics: [
+      { name: 'Внешний диаметр', value: '20 мм' },
+      { name: 'Внутренний диаметр', value: '14.1 мм' },
+      { name: 'Цвет', value: 'Серый' },
+      { name: 'Степень защиты', value: 'IP55' },
+    ],
+    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Труба+ПВХ+20',
+  },
+  {
+    id: '301',
+    categoryId: '3',
+    sku: 'NG3103',
+    name: 'Проводник круглый оцинкованный 8 мм',
+    description: 'Пруток стальной оцинкованный для систем молниезащиты и заземления.',
+    price: '120 ₽/м',
+    characteristics: [
+      { name: 'Диаметр', value: '8 мм' },
+      { name: 'Сечение', value: '50 мм2' },
+      { name: 'Покрытие', value: 'Горячий цинк' },
+    ],
+    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Пруток+8мм',
+  },
+  {
+    id: '401',
+    categoryId: '4',
+    sku: 'R5CE0542',
+    name: 'Шкаф настенный CE 500x400x200',
+    description: 'Корпус металлический сварной серии "RAM block". Предназначен для создания систем автоматизации и управления.',
+    price: '4 500 ₽',
+    characteristics: [
+      { name: 'Высота', value: '500 мм' },
+      { name: 'Ширина', value: '400 мм' },
+      { name: 'Глубина', value: '200 мм' },
+      { name: 'Степень защиты', value: 'IP65' },
+      { name: 'Цвет', value: 'RAL 7035' },
+    ],
+    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Шкаф+CE',
+  },
+];
