@@ -2,25 +2,25 @@ export const categories = [
   {
     id: '1',
     title: 'Кабеленесущие системы',
-    image: 'https://www.dkc.ru/upload/iblock/5b4/5b4e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg', // Placeholder
+    image: 'https://www.dkc.ru/upload/iblock/397/fjrvfothsree07dq6c1xbry2ibvda1vb.png',
     icon: 'server-network',
   },
   {
     id: '2',
     title: 'Трубы для электропроводки',
-    image: 'https://www.dkc.ru/upload/iblock/5b4/5b4e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
+    image: 'https://www.dkc.ru/upload/iblock/785/1k71z4y6w4v30353v30353v30353v303.jpg',
     icon: 'pipe',
   },
   {
     id: '3',
     title: 'Молниезащита и заземление',
-    image: 'https://www.dkc.ru/upload/iblock/5b4/5b4e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
+    image: 'https://www.dkc.ru/upload/iblock/121/121e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
     icon: 'flash',
   },
   {
     id: '4',
     title: 'Шкафы и корпуса',
-    image: 'https://www.dkc.ru/upload/iblock/5b4/5b4e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
+    image: 'https://www.dkc.ru/upload/iblock/4a1/4a1e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
     icon: 'door',
   },
 ];
@@ -41,7 +41,7 @@ export const products = [
       { name: 'Вес', value: '0.82 кг/м' },
       { name: 'Материал', value: 'Оцинкованная сталь' },
     ],
-    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Лоток+50х50',
+    image: 'https://www.dkc.ru/upload/iblock/397/fjrvfothsree07dq6c1xbry2ibvda1vb.png',
   },
   {
     id: '102',
@@ -58,7 +58,7 @@ export const products = [
       { name: 'Вес', value: '1.03 кг/м' },
       { name: 'Материал', value: 'Оцинкованная сталь' },
     ],
-    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Лоток+100х50',
+    image: 'https://www.dkc.ru/upload/iblock/397/fjrvfothsree07dq6c1xbry2ibvda1vb.png',
   },
   {
     id: '103',
@@ -75,7 +75,7 @@ export const products = [
       { name: 'Вес', value: '1.23 кг/м' },
       { name: 'Материал', value: 'Оцинкованная сталь' },
     ],
-    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Лоток+150х50',
+    image: 'https://www.dkc.ru/upload/iblock/397/fjrvfothsree07dq6c1xbry2ibvda1vb.png',
   },
   {
     id: '104',
@@ -92,7 +92,7 @@ export const products = [
       { name: 'Вес', value: '1.79 кг/м' },
       { name: 'Материал', value: 'Оцинкованная сталь' },
     ],
-    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Лоток+200х50',
+    image: 'https://www.dkc.ru/upload/iblock/397/fjrvfothsree07dq6c1xbry2ibvda1vb.png',
   },
   {
     id: '105',
@@ -109,7 +109,7 @@ export const products = [
       { name: 'Вес', value: '2.23 кг/м' },
       { name: 'Материал', value: 'Оцинкованная сталь' },
     ],
-    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Лоток+300х50',
+    image: 'https://www.dkc.ru/upload/iblock/397/fjrvfothsree07dq6c1xbry2ibvda1vb.png',
   },
   {
     id: '106',
@@ -126,7 +126,7 @@ export const products = [
       { name: 'Вес', value: '0.82 кг/м' },
       { name: 'Материал', value: 'Оцинкованная сталь' },
     ],
-    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Лоток+50х50',
+    image: 'https://www.dkc.ru/upload/iblock/397/fjrvfothsree07dq6c1xbry2ibvda1vb.png',
   },
   {
     id: '201',
@@ -141,7 +141,7 @@ export const products = [
       { name: 'Цвет', value: 'Серый' },
       { name: 'Степень защиты', value: 'IP55' },
     ],
-    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Труба+ПВХ+20',
+    image: 'https://www.dkc.ru/upload/iblock/785/1k71z4y6w4v30353v30353v30353v303.jpg',
   },
   {
     id: '301',
@@ -155,7 +155,7 @@ export const products = [
       { name: 'Сечение', value: '50 мм2' },
       { name: 'Покрытие', value: 'Горячий цинк' },
     ],
-    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Пруток+8мм',
+    image: 'https://www.dkc.ru/upload/iblock/121/121e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
   },
   {
     id: '401',
@@ -171,6 +171,6 @@ export const products = [
       { name: 'Степень защиты', value: 'IP65' },
       { name: 'Цвет', value: 'RAL 7035' },
     ],
-    image: 'https://via.placeholder.com/400x400/cc0000/ffffff?text=Шкаф+CE',
+    image: 'https://www.dkc.ru/upload/iblock/4a1/4a1e8c1b2f6b8c4c7c8c9c0c1c2c3c4.jpg',
   },
 ];
